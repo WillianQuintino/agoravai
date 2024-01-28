@@ -1,22 +1,18 @@
-<HTML>
-<HEAD>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-    <link type="text/css" href="src/css/style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-  <TITLE>Login Convidado </TITLE>
-</HEAD>
-<BODY>
-    <div class="guestpassform">
-        <form class="pure-form" action="" >
-            <fieldset>
-                <legend>Digite a senha de convidado</legend>
-
-                <input type="password" placeholder="Senha do convidado"></br></br>
-
-                <button type="submit" value="Submit" class="pure-button pure-button-primary">Entrar</button>
-            </fieldset>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Convidados</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body class="guestlogin">
+    <main>
+        <form action="gestlogin.php" method="get">
+            <label for="code">Insira o código</label>
+            <input type="text" name="code" id="code">
+            <input type="submit" value="Entrar">
         </form>
-    </div>
-</BODY>
-</HTML>
+    </main>
+</body>
+</html>

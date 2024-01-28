@@ -1,144 +1,76 @@
+@charset "UTF-8";
 
-.guestpassform {
-    alignment-adjust:central;
-    alignment-baseline:central;
-    width: 300px;
-    height:auto;
-    margin:auto;
-    text-align:center;
-    border-style:solid solid solid double;
-    border-width: 2px 4px 3px 4px;
-    padding:3px;
-    border-color:#060 #666 #666 #060;
-    position:relative;
-    top: 25%;
-}
-.custom-wrapper {
-          background-color: #ffd390;
-          margin-bottom: 1em;
-          -webkit-font-smoothing: antialiased;
-          height: 2.1em;
-          overflow: hidden;
-          -webkit-transition: height 0.5s;
-          -moz-transition: height 0.5s;
-          -ms-transition: height 0.5s;
-          transition: height 0.5s;
-      }
-      
-      .custom-wrapper.open {
-          height: 14em;
-      }
-      
-      .custom-menu-3 {
-          text-align: right;
-      }
-      
-      .custom-toggle {
-          width: 34px;
-          height: 34px;
-          position: absolute;
-          top: 0;
-          right: 0;
-          display: none;
-      }
-      
-      .custom-toggle .bar {
-          background-color: #777;
-          display: block;
-          width: 20px;
-          height: 2px;
-          border-radius: 100px;
-          position: absolute;
-          top: 18px;
-          right: 7px;
-          -webkit-transition: all 0.5s;
-          -moz-transition: all 0.5s;
-          -ms-transition: all 0.5s;
-          transition: all 0.5s;
-      }
-      
-      .custom-toggle .bar:first-child {
-          -webkit-transform: translateY(-6px);
-          -moz-transform: translateY(-6px);
-          -ms-transform: translateY(-6px);
-          transform: translateY(-6px);
-      }
-      
-      .custom-toggle.x .bar {
-          -webkit-transform: rotate(45deg);
-          -moz-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-      }
-      
-      .custom-toggle.x .bar:first-child {
-          -webkit-transform: rotate(-45deg);
-          -moz-transform: rotate(-45deg);
-          -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-      }
-      
-      @media (max-width: 47.999em) {
-      
-          .custom-menu-3 {
-              text-align: left;
-          }
-      
-          .custom-toggle {
-              display: block;
-          }
-      
-      }
-.ads{
-    align-content: center;
-    border: 0.5 0.5 0.5 0.5;
-}
-#ads1 {
-    width: 33%;
-    height: 190px;
-    float: left;
-}
-#ads2 {
-    width: 33%; 
-    height: 190px;   
-    float: left;
-}
-#ads3 {
-    width: 33%;
-    height: 190px;
-    float: left;
-}
-#SlideShow1 .image
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Satisfy&display=swap');
+
+:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #ffb7b7;
+    --accent-color: #f9ed69;
+    --background-color: #f3f3f3;
+    --text-color: #333333;
+    --primary-font: Arial, Helvetica, sans-serif;
+    --secondary-font: 'Satisfy','Dancing Script', cursive;
 }
 
-.contener {
-    width: 75%;
-    float: left;
-}
-.wight{
-    width: 25%;
-    float: right;
+*{
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
 }
 
-.list {
-    left:10px; 
-    top:20px; 
-    height:400px; 
-    z-index:1; 
-    overflow: auto;
+body.guestlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--backgrond-color);
+    background-image: url("/src/img/pexels-sam-jhay-14024358.jpg");
+    background-size: cover;
+    background-position: center center;
+
 }
-.CustomStyle
-{
-   font-family: "Courier New";
-   font-weight: bold;
-   font-size: 16px;
-   text-decoration: none;
-   color: #2E74B5;
-   background-color: transparent;
+
+body.guestlogin > main {
+    border: 1px none #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+body.guestlogin label {
+    display: block;
+    text-align: center;
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-size: 2em;
+}  
+
+body.guestlogin input {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.guestlogin input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px none var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    cursor: pointer;
+    font-weight: bolder;
 }
