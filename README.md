@@ -29,26 +29,26 @@ Este projeto é uma aplicação web que permite aos usuários criar e compartilh
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## TO-DO
--[] Criar pagina inicial
-    -[] Sobre
--[x] Tela de login dos convidados
-    - []Sistema de login laravel
--[] Tela de boas-vindas dos convidados
--[] Criar area dos convidados
-    -[] Criar area da data dos eventos
-    -[] Criar area de presentes
-    -[] Criar area de endereço
-    -[] Criar area de presença
-    -[] Criar area dos convites
-    -[] Criar area das fotos e videos
-    -[] Criar area de Musicas
-    -[] Criar area de cronograma
--[] Criar area dos noivos
-    -[] area de controle das opções
-    -[] area de cadastro das familias convidadas
--[] Criar area do administrador
-    -[] area de cadastro de noivos
-    -[] area de configuração do site
+- [] Criar pagina inicial
+    - [] Sobre
+- [x] Tela de login dos convidados
+    - [] Sistema de login laravel
+- [] Tela de boas-vindas dos convidados
+- [] Criar area dos convidados
+    - [] Criar area da data dos eventos
+    - [] Criar area de presentes
+    - [] Criar area de endereço
+    - [] Criar area de presença
+    - [] Criar area dos convites
+    - [] Criar area das fotos e videos
+    - [] Criar area de Musicas
+    - [] Criar area de cronograma
+- [] Criar area dos noivos
+    - [] area de controle das opções
+    - [] area de cadastro das familias convidadas
+- [] Criar area do administrador
+    - [] area de cadastro de noivos
+    - [] area de configuração do site
 
 
 ## Licença
