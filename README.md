@@ -33,7 +33,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
     - [ ] Sobre
 - [x] Tela de login dos convidados
     - [ ] Sistema de login laravel
-- [ ] Tela de boas-vindas dos convidados
+- [x] Tela de boas-vindas dos convidados
 - [ ] Criar area dos convidados
     - [ ] Criar area da data dos eventos
     - [ ] Criar area de presentes
