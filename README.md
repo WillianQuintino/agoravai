@@ -19,6 +19,11 @@ Este projeto é uma aplicação web que permite aos usuários criar e compartilh
 - Fotos e videos do casal Antes e depois
 - Opção de download das fotos
 
+## Funções futuras
+- Funções de wishlist talvez vínculo com twitch 
+- Funções para organizar compras em casa
+- Funções de organizar aniversários e outras festas.
+
 ## Instalação
 
 1. Clone este repositório.
